@@ -2,6 +2,10 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 
+p {
+    font-size: 14px;
+}
+
 .navbar {
     box-shadow: 0px 2px 10px black;
 }
@@ -18,4 +22,20 @@ body {
 
 #headerSection .row {
     height: 100vh;
+}
+
+#features .fab {
+    font-size: 40px;
+}
+
+#history #historyimg {
+    border-style: solid; 
+    border-width: 4px;
+    border-color: #343a40;
+    border-radius: 4px;
+}
+
+#history h2 {
+    border-left: 5px solid #343a40;
+    padding-left: 25px;
 }
