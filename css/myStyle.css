@@ -55,16 +55,20 @@ p {
     padding-left: 25px;
 }
 
-#learnCode i {
-    font-size: 40px;
-}
-
 #learnCode {
     background: url('../images/headerBackground.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
+}
+
+#learnCode .far {
+    color: white;
+}
+
+#learnCode .far:hover {
+    opacity: 0.9;  
 }
 
 #services .col-md-3 {
@@ -74,6 +78,11 @@ p {
 
 #services i {
     font-size: 24px;
+}
+
+#services h2 {
+    border-left: 5px solid #343a40;
+    padding-left: 25px;
 }
 
 .imageContainer {
@@ -103,4 +112,25 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+#contact .fab {
+    color: #343a40;
+}
+
+#contact .fab:hover {
+    opacity: 0.9;
+}
+
+#contact h2 {
+    border-left: 5px solid #343a40;
+    padding-left: 25px;
+}
+
+#contact #basic-addon1 {
+    background-color: #343a40;
+}
+
+#contact .far {
+    color: white;
 }
