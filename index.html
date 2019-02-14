@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- My CSS -->
     <link rel="stylesheet" href="css/myStyle.css" />
+
+    <script src="https://unpkg.com/scrollreveal"></script>  
     
     <title>Begin Bootstrap</title>
   </head>
@@ -61,7 +63,7 @@
       <header id="headerSection">
         <div class="overlay">
           <div class="container">
-            <div class="row text-center">
+            <div class="row text-center" id="headerText">
               <div class="col my-auto">
                 <h1 class="text-white display-3">Berkay Demirel</h1>
                 <p class="lead text-white font-italic">Java Developer</p>
@@ -398,7 +400,13 @@
           speed: 500,
 	        speedAsDuration: true
         });
-      </script>
+    </script>
+
+    <script>
+        ScrollReveal().reveal('#headerText', {
+          duration: 2000
+        });
+    </script>
 
   </body>
 </html>
