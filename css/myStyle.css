@@ -90,6 +90,11 @@ p {
     cursor: pointer;
 }
 
+#services img {
+    height: 100%;
+    width: 100%;
+}
+
 .imageOverlay {
     position: absolute;
     top: 0;
@@ -137,4 +142,38 @@ p {
 
 #footer {
     background-color: #343a40;
+}
+
+@Media screen and (max-width:1200px){
+
+
+}
+
+@Media screen and (max-width:992px){
+
+    #history h2 {
+        font-size: 28px;
+    }
+
+    form {
+        margin-top: 3rem !important;
+    }
+    
+}
+
+@Media screen and (max-width:768px){
+    #headerSection .display-3 {
+
+        font-size: 48px;
+    }
+
+    #history h2 {
+        margin-top: 3rem !important;
+    }
+    
+}
+
+@Media screen and (max-width:576px){
+
+    
 }
